@@ -1,0 +1,161 @@
+/*Colors and fonts*/
+
+body{
+
+	background:  #D8D2CB;
+	font-family: 'Lato', sans-serif;
+	
+}
+
+h1 {
+
+	color:  #1C658C;
+	font-family: 'Roboto Serif', sans-serif;
+	font-size: 50px;
+	
+}
+h2 {
+
+	color : #316B83;
+	font-family: 'Roboto Serif', sans-serif;
+	font-size: 33px;
+	font-weight: 400;
+}
+
+p{
+
+	font-size: 19px;
+
+}
+
+a{
+
+	text-decoration: none;
+	color: #1C658C;
+	font-weight: bold;
+	font-size: 15x;
+
+}
+
+a:hover   { 
+
+	color: Black;
+  }
+
+li{
+
+	color: #316B83;
+}
+i{ color: #1C658C; }
+i:hover { 
+	color: black }
+
+.image-circle{
+	border-radius: 50%;
+	border-width: 100;
+
+}
+
+img{
+	height: 160px;
+	width: 160px;
+}
+
+
+
+
+
+/*Comstomise with class*/
+
+.Containers {
+
+	width: 700px;
+	margin: 40px auto;
+
+}
+@media (max-width: 960px) {
+
+	.Containers {
+		width: 700px; }
+}
+@media (max-width: 720px) {
+
+	.Containers {
+		width: 500px; }
+}
+@media (max-width: 540px) {
+
+	.Containers {
+		width: 3p00px; }
+}
+
+
+
+
+
+
+
+
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.btm-blue {
+	background-color: #D8D2CB;
+	color: #1C658C;
+	padding: 9px 18px;
+	border-radius: 4px;
+}
+.btm-blue:hover {
+
+	background-color: grey;
+	color: white;
+}
+
+
+
+.list-inline{
+
+	list-style: none;
+	padding-left: 0px ;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px ;
+}
+
+.list-inline i {
+
+	font-size: 50px;
+	color: #92A9BD;
+}
+
+.list-inline i:hover {
+
+	color: #316B83;
+}
+
+/*Adjustments with id*/
+
+#intro p {
+
+margin-bottom: 25px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
